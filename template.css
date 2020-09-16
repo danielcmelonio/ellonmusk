@@ -1,0 +1,78 @@
+#title{
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 50px 0 50px 0;
+}
+
+#img-div{
+    height: 300px;
+    margin-top: 20px;
+}
+
+#image{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+}
+
+#img-caption{
+    margin: 10px 0 10px 0;
+    opacity: 0.8;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tribute-info{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company-names li{
+    line-height: 20px;
+    font-size: 16px;
+    list-style: square;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 800px)
+{
+    #tribute-info{
+        margin-top: 50px;
+    }
+
+    p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .company-names li{
+        margin-left: 36px;
+    }
+}
